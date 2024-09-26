@@ -60,7 +60,7 @@
 
 <script>
 var loadTime = window.performance.timing.domContentLoadedEventEnd- window.performance.timing.navigationStart;
-var div = document.getElementById('old');
+//var div = document.getElementById('old');
 //div.innerHTML += window.performance;
 
 
@@ -84,7 +84,7 @@ entriesOl.forEach(([key, value]) => {
 //let Text = value.replace(/(\r\n|\n|\r)/gm, "");
 console.log(key+'-'+value);
 console.log(key+'-text'+value);
-   div.innerHTML +=  `<li class="text-left">${key} = ${value} </li>`;
+  // div.innerHTML +=  `<li class="text-left">${key} = ${value} </li>`;
 
 });
 
